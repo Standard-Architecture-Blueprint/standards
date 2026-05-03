@@ -5,7 +5,7 @@
 
 ## 📂 ディレクトリ構造と役割
 各モジュールは、特定の業務ロジック（ドメイン知識）を持たず、純粋な「基盤機能」に徹すること。
-```json
+```text
 src/main/java/com/example/common/
 ├── api/              # 【Interface Standardization】
 │   │                 # 全サービス共通の通信プロトコルを定義。
